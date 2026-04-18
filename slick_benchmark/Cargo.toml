@@ -1,0 +1,17 @@
+[package]
+name    = "slick_benchmark"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "download_datasets"
+path = "src/download_datasets.rs"
+
+[[bin]]
+name = "benchmark"
+path = "src/benchmark.rs"
+
+[dependencies]
+ureq     = { version = "2.9", features = ["gzip"] }   # HTTP downloads
+flate2   = "1.0"                                        # .gz decompression
+# pcap-parser = "0.14"                                    # PCAP parsing
