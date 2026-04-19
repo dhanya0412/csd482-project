@@ -1,1 +1,2 @@
 slick_benchmark/datasets/*
+linear_probing.rs
