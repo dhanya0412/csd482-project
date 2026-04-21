@@ -11,6 +11,10 @@ path = "src/download_datasets.rs"
 name = "benchmark"
 path = "src/benchmark.rs"
 
+[[bin]]
+name = "benchmark_quadratic"
+path = "src/benchmark_quadratic.rs"
+
 [dependencies]
 ureq     = { version = "2.9", features = ["gzip"] }   # HTTP downloads
 flate2   = "1.0"                                        # .gz decompression

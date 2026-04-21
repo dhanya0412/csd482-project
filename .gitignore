@@ -1,2 +1,11 @@
+# Project Datasets
 slick_benchmark/datasets/*
 linear_probing.rs
+
+# Rust Build Artifacts
+slick_benchmark/target/
+slick_benchmark/Cargo.lock
+
+# Benchmark Output Results
+slick_benchmark/results.csv
+slick_benchmark/quadratic_results.csv
